@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect } from "react";
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer";
+import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaUser, FaPen, FaPaperPlane } from "react-icons/fa";
 
 const Contact = () => {
@@ -101,19 +101,6 @@ const Contact = () => {
       </main>
 
       <Footer />
-
-      <style jsx>{`
-        @keyframes fadeIn {
-          from { opacity: 0; transform: translateY(20px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        .animate-fade-in {
-          animation: fadeIn 1s ease-out;
-        }
-        .animate-fade-in-delayed {
-          animation: fadeIn 1s ease-out 0.5s both;
-        }
-      `}</style>
     </div>
   );
 };
