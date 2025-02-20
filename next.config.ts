@@ -1,7 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',
+  // other config options can go here
+
+  
+};
+module.exports = {
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
